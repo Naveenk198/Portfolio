@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Naveenkumar B &mdash; Java Backend &amp; Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Naveenkumar B, an aspiring Java Backend Developer and M.Sc. Computer Science graduate based in Chennai, India. Specializing in Core Java, Spring Boot, RESTful APIs, MySQL, and Full Stack Web Applications.">
+  <meta name="author" content="Naveenkumar B">
+  <meta name="theme-color" content="#0e1011">
+  <meta name="color-scheme" content="light dark">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Naveenkumar B &mdash; Java Backend &amp; Full Stack Developer">
+  <meta property="og:description" content="Portfolio showcasing Java Backend and Full Stack projects, Spring Boot APIs, and database engineering. M.Sc. Computer Science graduate from Chennai.">
+  <meta property="og:image" content="naveen_profile.jpg">
+  <meta property="og:url" content="/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Naveenkumar B &mdash; Java Backend &amp; Full Stack Developer">
+  <meta name="twitter:description" content="Portfolio of Java Backend &amp; Full Stack developer Naveenkumar B">
+
+  <!-- Fonts: Inter (clean, readable) + JetBrains Mono (code labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Tabler Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="nav-logo-mark">NB</span>
+      <span>Naveenkumar B</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+        <i class="ti ti-sun" id="themeIcon"></i>
+      </button>
+      <a href="Naveenkumar_B_Resume.pdf" class="nav-cta" download>
+        <i class="ti ti-download"></i> Resume
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <i class="ti ti-menu-2"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose"><i class="ti ti-x"></i></button>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="container hero-inner">
+
+    <!-- Profile Photo -->
+    <div class="hero-photo-wrap fade-up">
+      <img src="naveen_profile.jpg" alt="Naveenkumar B" class="hero-photo" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop'">
+    </div>
+
+    <!-- Text -->
+    <div class="hero-text fade-up">
+      <div class="avail-badge">
+        <span class="avail-dot"></span> Available for Junior Java Developer Roles
+      </div>
+
+      <h1 class="hero-title">
+        Hi, I'm <span class="text-accent">Naveenkumar B</span>
+      </h1>
+
+      <div class="typed-wrap">
+        <span class="typed-text" id="typedText"></span><span class="typed-cursor">|</span>
+      </div>
+
+      <p class="hero-subtitle">
+        Aspiring Java Backend Developer seeking a Junior Java Developer Trainee role to build scalable server-side applications. Eager to leverage Spring Boot, RESTful APIs, and database integration while contributing to real-world software development projects.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">
+          <i class="ti ti-arrow-right"></i> My Projects
+        </a>
+        <a href="#contact" class="btn-ghost">Contact Me</a>
+        <a href="Naveenkumar_B_Resume.pdf" class="btn-ghost" download>
+          <i class="ti ti-download"></i> Resume (PDF)
+        </a>
+      </div>
+
+      <div class="hero-tags">
+        <span class="tech-tag">Java</span>
+        <span class="tech-tag">Spring Boot</span>
+        <span class="tech-tag">RESTful APIs</span>
+        <span class="tech-tag">MySQL</span>
+        <span class="tech-tag">Spring Data JPA</span>
+        <span class="tech-tag">React.js</span>
+        <span class="tech-tag">JSP</span>
+        <span class="tech-tag">DSA</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section section-alt">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="t-label">About</span>
+      <h2 class="sec-title">About Me</h2>
+    </div>
+    <div class="about-layout">
+      <div class="about-left fade-up">
+        <p class="about-lead">Aspiring Java Backend Developer passionate about building robust server-side architectures and real-world web applications.</p>
+        <p class="about-body">
+          I hold a Master of Science in Computer Science from Vels Institute of Technology (CGPA: 7.9/10, 2025) and completed comprehensive Full Stack Web Development training at Besant Technologies.
+        </p>
+        <p class="about-body">
+          I specialize in backend engineering with Core Java (OOP, Collections Framework, Exception Handling, Multithreading), Spring Boot (RESTful APIs, Dependency Injection, Spring MVC, Spring Data JPA / Hibernate), and MySQL relational database management. I also build end-to-end full stack web applications integrating React.js and JSP with clean REST APIs, backed by strong problem-solving skills in Data Structures and Algorithms.
+        </p>
+        <div class="about-links">
+          <a href="https://github.com/Naveenk198" class="about-link" target="_blank" rel="noopener noreferrer">
+            <i class="ti ti-brand-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/naveenkumar12/" class="about-link" target="_blank" rel="noopener noreferrer">
+            <i class="ti ti-brand-linkedin"></i> LinkedIn
+          </a>
+          <a href="mailto:naveenkumarbg98@gmail.com" class="about-link">
+            <i class="ti ti-mail"></i> Email Me
+          </a>
+        </div>
+      </div>
+      <div class="about-right fade-up">
+        <div class="about-card">
+          <div class="about-card-label">Education &amp; Degree</div>
+          <div class="about-card-value">M.Sc. Computer Science (2025)</div>
+          <div class="about-card-sub">Vels Institute of Technology &middot; CGPA: 7.9 / 10</div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-label">Based In</div>
+          <div class="about-card-value text-accent">Chennai, Tamil Nadu, India</div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-label">Primary Focus</div>
+          <div class="about-card-value">Java Backend &amp; Full Stack Development</div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-label">Looking For</div>
+          <div class="about-card-value">Junior Java Developer Trainee &middot; Full-Time Roles</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="t-label">Skills</span>
+      <h2 class="sec-title">Technical Skills</h2>
+      <p class="sec-subtitle">Technologies, frameworks, and tools I use to build scalable software.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card fade-up">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.035 15.352c-.672.484-.44 1.144.11 1.34 1.706.604 6.792 1.63 11.233.103.543-.186.757-.866.11-1.34-1.282-.942-10.158-.942-11.453-.103zM12.756 12.355c-.172-.442-1.633-.943-3.08-1.035-.745-.046-1.077.012-1.012.219.224.73.916 1.483 1.94 2.115.823.512 1.956.84 2.152.47.196-.37-.01-.769-.11-1.129zM16.31 10.353c-.347-.384-2.18-.54-3.593-.306-1.066.178-1.503.447-1.378.684.442.84 1.635 1.417 3.012 1.688.943.186 2.052.126 2.11-.274.057-.4-.148-.792-.151-1.142zM11.666 4.316c.338.307.756 1.053.488 2.036-.312 1.15-1.484 2.043-2.316 2.766-.346.3-.618.667-.618.667s-.1-.082-.122-.164c.05-.284.15-.558.293-.814.19-.34.42-.66.69-.94.73-.77 1.91-1.6 2.044-2.5.093-.61-.314-.81-.46-.86l.16-.06.27-.06c.01-.006.01-.013.01-.02 0-.01-.01-.01-.01-.01zM14.07 1.48c.34.307.755 1.053.487 2.035-.312 1.151-1.484 2.044-2.316 2.767-.346.3-.618.666-.618.666s-.1-.082-.122-.164c.05-.283.15-.558.293-.813.19-.34.42-.66.69-.94.73-.77 1.91-1.6 2.044-2.5.093-.61-.314-.81-.46-.86l.16-.06.27-.06c.01-.006.01-.013.01-.02 0-.01-.01-.01-.01-.01z" />
+          </svg>
+        </div>
+        <span class="skill-name">Core Java (OOP)</span>
+      </div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-leaf"></i></div><span class="skill-name">Spring Boot</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-api"></i></div><span class="skill-name">RESTful APIs</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-database"></i></div><span class="skill-name">MySQL Database</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-layers-linked"></i></div><span class="skill-name">Spring Data JPA</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-binary-tree"></i></div><span class="skill-name">DSA &amp; Problem Solving</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-brand-react"></i></div><span class="skill-name">React.js</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-file-code"></i></div><span class="skill-name">JSP &amp; Spring MVC</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-brand-javascript"></i></div><span class="skill-name">JavaScript</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-brand-html5"></i></div><span class="skill-name">HTML5 / CSS3</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-brand-git"></i></div><span class="skill-name">Git &amp; GitHub</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-box"></i></div><span class="skill-name">Maven</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-brand-vscode"></i></div><span class="skill-name">VS Code / Eclipse</span></div>
+      <div class="skill-card fade-up"><div class="skill-icon"><i class="ti ti-server"></i></div><span class="skill-name">MySQL Workbench</span></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section section-alt">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="t-label">Projects</span>
+      <h2 class="sec-title">Featured Projects</h2>
+      <p class="sec-subtitle">Click on a project to view architectural highlights and feature details.</p>
+    </div>
+
+    <div class="projects-filter fade-up" role="group" aria-label="Filter projects by category">
+      <button class="projects-filter-btn active" type="button" data-filter="all" aria-pressed="true">All Projects</button>
+      <button class="projects-filter-btn" type="button" data-filter="java" aria-pressed="false">Java / Backend</button>
+      <button class="projects-filter-btn" type="button" data-filter="web" aria-pressed="false">Full Stack / React</button>
+    </div>
+
+    <div class="projects-list">
+
+      <!-- Project 1: Student Management System -->
+      <div class="project-item fade-up" data-project-tag="java">
+        <div class="project-header" role="button" tabindex="0" aria-expanded="false">
+          <span class="project-num">01</span>
+          <div class="project-title-wrap">
+            <span class="project-title-main">STUDENT MANAGEMENT SYSTEM &mdash; Spring Boot &amp; Spring Data JPA</span>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">JSP</span>
+              <span class="project-tag">Spring Data JPA</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Maven</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="ti ti-chevron-down"></i></div>
+        </div>
+        <div class="project-body">
+          <div class="project-body-inner">
+            <div class="project-thumb">
+              <img src="student_management.jpg" alt="Student Management System" loading="lazy" decoding="async" onerror="this.parentElement.style.background='var(--bg-elevated)'">
+            </div>
+            <div class="project-desc-area">
+              <p class="project-desc">
+                A robust web application designed to store, manage, and process academic student records efficiently in a MySQL database using Spring Data JPA. Built with dynamic JSP view pages leveraging Spring MVC's Model and Model Attribute to transfer data seamlessly between backend controllers and user-facing views.
+              </p>
+              <div class="project-features-list">
+                <div class="project-feature">Student details stored and securely managed in a MySQL database using Spring Data JPA</div>
+                <div class="project-feature">Full CRUD functionality: add new students, update details, delete records, and view all students</div>
+                <div class="project-feature">Implemented with JSP pages displaying data using Spring's Model and Model Attribute data binding</div>
+                <div class="project-feature">Built with clean Controller-Service-Repository architecture and Maven build management</div>
+              </div>
+              <div class="project-links-row">
+                <a href="https://github.com/Naveenk198" class="proj-btn proj-btn-primary" target="_blank" rel="noopener noreferrer">
+                  <i class="ti ti-brand-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: TREKMATE - Driver Booking System -->
+      <div class="project-item fade-up" data-project-tag="web">
+        <div class="project-header" role="button" tabindex="0" aria-expanded="false">
+          <span class="project-num">02</span>
+          <div class="project-title-wrap">
+            <span class="project-title-main">TREKMATE &mdash; Driver Booking System (Full Stack Web Application)</span>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">React.js</span>
+              <span class="project-tag">RESTful APIs</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">VS Code</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="ti ti-chevron-down"></i></div>
+        </div>
+        <div class="project-body">
+          <div class="project-body-inner">
+            <div class="project-thumb">
+              <img src="trekmate_booking.jpg" alt="TREKMATE Driver Booking System" loading="lazy" decoding="async" onerror="this.parentElement.style.background='var(--bg-elevated)'">
+            </div>
+            <div class="project-desc-area">
+              <p class="project-desc">
+                A full-stack web application designed for booking and managing professional drivers using Spring Boot and React.js. Features dual authentication and dedicated dashboards for both drivers and customers, communicating through RESTful APIs connected to a MySQL relational database.
+              </p>
+              <div class="project-features-list">
+                <div class="project-feature">Full-stack web application for booking and managing drivers using Spring Boot and React.js</div>
+                <div class="project-feature">Implemented secure login functionality for drivers and customers</div>
+                <div class="project-feature">Used MySQL database for storing user, driver, and real-time booking information</div>
+                <div class="project-feature">Developed and integrated RESTful APIs using Spring Boot for seamless frontend-backend communication</div>
+              </div>
+              <div class="project-links-row">
+                <a href="https://github.com/Naveenk198" class="proj-btn proj-btn-primary" target="_blank" rel="noopener noreferrer">
+                  <i class="ti ti-brand-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="projects-empty" id="projectsEmpty" role="status" aria-live="polite">
+      No projects available for this filter.
+    </p>
+  </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <div class="container">
+    <div class="education-layout">
+      <div class="education-side fade-up">
+        <span class="t-label" style="display:block;margin-bottom:14px">Education</span>
+        <h2 class="sec-title" style="font-size:clamp(1.8rem,3vw,2.6rem);margin-bottom:16px">My Education</h2>
+        <p class="edu-side-desc">
+          From foundational schooling to postgraduate computer science &mdash; my learning journey and academic credentials.
+        </p>
+
+        <!-- Certifications Card -->
+        <div style="margin-top:28px; padding:20px; border:1px solid var(--border); border-radius:var(--radius-md); background:var(--bg-card);">
+          <div class="t-label" style="display:flex; align-items:center; gap:7px; margin-bottom:8px;">
+            <i class="ti ti-certificate" style="font-size:1.1rem; color:var(--accent);"></i> Certification
+          </div>
+          <div style="font-weight:700; font-size:0.95rem; color:var(--text-primary); margin-bottom:4px;">
+            Full Stack Web Development Course
+          </div>
+          <div style="font-size:0.84rem; color:var(--text-secondary); margin-bottom:8px;">
+            Besant Technologies
+          </div>
+          <span class="tl-grade">Completed in 2026</span>
+        </div>
+      </div>
+
+      <div class="timeline fade-up">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-period">2023 &ndash; 2025</div>
+          <div class="tl-degree">Master of Science in Computer Science (M.Sc. CS)</div>
+          <div class="tl-school">Vels Institute of Technology, Vels University, Chennai</div>
+          <span class="tl-grade">CGPA: 7.9 / 10 &middot; Graduated 2025</span>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-period">2018 &ndash; 2021</div>
+          <div class="tl-degree">Bachelor of Science in Computer Science (B.Sc. CS)</div>
+          <div class="tl-school">St. Joseph's College, Madras University, Chennai</div>
+          <span class="tl-grade">CGPA: 7.0 / 10 &middot; Graduated 2021</span>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-period">2018</div>
+          <div class="tl-degree">Higher Secondary Certificate (HSC) &mdash; 64%</div>
+          <div class="tl-school">Sekkizhar Government Boys Higher Secondary School</div>
+          <span class="tl-grade">Higher Secondary Certificate</span>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-period">2016</div>
+          <div class="tl-degree">Secondary School Leaving Certificate (SSLC) &mdash; 89%</div>
+          <div class="tl-school">Sekkizhar Government Boys High School</div>
+          <span class="tl-grade">Secondary School Leaving Certificate</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <div class="contact-layout">
+      <div class="contact-left fade-up">
+        <span class="t-label">Contact</span>
+        <h2 class="contact-lead">Get in touch</h2>
+        <p class="contact-body">
+          Have a project or job opportunity? Feel free to reach out.
+          I'd love to hear from you.
+        </p>
+        <div class="contact-items">
+          <a href="mailto:naveenkumarbg98@gmail.com" class="contact-row">
+            <div class="contact-icon"><i class="ti ti-mail"></i></div>
+            <div class="contact-info">
+              <span class="contact-lbl">Email</span>
+              <span class="contact-val">naveenkumarbg98@gmail.com</span>
+            </div>
+          </a>
+          <button class="contact-copy-btn" id="copyEmailBtn" type="button" aria-label="Copy email address">
+            <i class="ti ti-copy"></i> Copy Email Address
+          </button>
+          <a href="tel:9025991250" class="contact-row">
+            <div class="contact-icon"><i class="ti ti-phone"></i></div>
+            <div class="contact-info">
+              <span class="contact-lbl">Phone</span>
+              <span class="contact-val">+91 9025991250</span>
+            </div>
+          </a>
+          <a href="https://github.com/Naveenk198" class="contact-row" target="_blank" rel="noopener noreferrer">
+            <div class="contact-icon"><i class="ti ti-brand-github"></i></div>
+            <div class="contact-info">
+              <span class="contact-lbl">GitHub</span>
+              <span class="contact-val">github.com/Naveenk198</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/naveenkumar12/" class="contact-row" target="_blank" rel="noopener noreferrer">
+            <div class="contact-icon"><i class="ti ti-brand-linkedin"></i></div>
+            <div class="contact-info">
+              <span class="contact-lbl">LinkedIn</span>
+              <span class="contact-val">linkedin.com/in/naveenkumar12</span>
+            </div>
+          </a>
+          <div class="contact-row">
+            <div class="contact-icon"><i class="ti ti-map-pin"></i></div>
+            <div class="contact-info">
+              <span class="contact-lbl">Location</span>
+              <span class="contact-val">Chennai, Tamil Nadu, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-right fade-up">
+        <div class="t-label" style="margin-bottom:16px">Available for opportunities</div>
+        <h3 class="contact-right-title">Looking for Junior Java Developer roles</h3>
+        <p class="contact-right-sub">
+          I'm an M.Sc. Computer Science graduate seeking a Junior Java Developer Trainee role to build scalable server-side systems with Spring Boot, RESTful APIs, and MySQL. Let's connect!
+        </p>
+        <a href="mailto:naveenkumarbg98@gmail.com" class="cta-link">
+          <i class="ti ti-send"></i> Send a Message
+        </a>
+        <div class="resume-row">
+          <div class="t-label" style="margin-bottom:14px">Download My Resume</div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <a href="Naveenkumar_B_Resume.pdf" download class="btn-ghost">
+              <i class="ti ti-download"></i> Resume (PDF)
+            </a>
+            <a href="NAVEENKUMAR B MSC(CS)2025 7.97CGPA FullStack.docx" download class="btn-ghost">
+              <i class="ti ti-file-text"></i> Resume (DOCX)
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <div class="footer-brand">&copy; 2026 Naveenkumar B</div>
+      <div class="footer-location">Chennai, India</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/Naveenk198" class="footer-link" target="_blank" rel="noopener noreferrer" title="GitHub Profile">
+        <i class="ti ti-brand-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/naveenkumar12/" class="footer-link" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">
+        <i class="ti ti-brand-linkedin"></i> LinkedIn
+      </a>
+      <a href="mailto:naveenkumarbg98@gmail.com" class="footer-link" title="Send Email">
+        <i class="ti ti-mail"></i> Email
+      </a>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Back to top">
+  <i class="ti ti-arrow-up"></i>
+</button>
+
+<div class="copy-toast" id="copyToast" role="status" aria-live="polite">Email copied</div>
+
+<script src="script.js"></script>
+</body>
+</html>
